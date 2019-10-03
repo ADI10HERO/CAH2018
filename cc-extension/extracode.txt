@@ -1,0 +1,85 @@
+<style>
+.dropbutton,abc {
+    background-color: coral;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown,abc {
+    position: static;
+    display: inline-block;
+}
+
+.dropdown-content,abc {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    padding: 16px 16px;
+}
+
+.dropdown-content,abc a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    min-width: 160px;
+}
+
+.dropdown-content,abc a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbutton{
+    background-color:#2bef79;
+}
+</style>
+
+/* 
+<div class=\"dropdown\">
+  <button class=\"dropbutton\"> CONTESTS</button>
+  <div class=\"dropdown-content\">
+    <a href=></a>
+    <a href=\"\"></a>
+    <a href=\"\"></a>
+  </div>
+</div> */
+
+/*<div class="dropdown">
+  <button class="dropbutton">UPCOMING</button>
+  <div class="dropdown-content">
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">SUBMIT</button>
+  <div class="dropdown-content">
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+  </div>
+</div>*/
+
+<script>
+		.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+		.col-sm{
+			background-color: coral;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+		}
+	</script>
+	
